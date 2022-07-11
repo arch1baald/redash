@@ -9,7 +9,8 @@ pyhive==0.6.1
 pymongo[tls,srv]==3.9.0
 vertica-python==0.9.5
 td-client==1.0.0
-pymssql==2.1.4
+# To run on MacOS
+# pymssql==2.1.4
 dql==0.5.26
 dynamo3==0.4.10
 boto3>=1.10.0,<1.11.0
@@ -24,7 +25,8 @@ simple_salesforce==0.74.3
 PyAthena>=1.5.0
 pymapd==0.19.0
 qds-sdk>=1.9.6
-ibm-db>=2.0.9
+# To run on MacOS
+# ibm-db>=2.0.9
 pydruid==0.5.7
 requests_aws_sign==0.1.5
 snowflake-connector-python==2.1.3
@@ -42,6 +44,5 @@ xlrd==2.0.1
 openpyxl==3.0.7
 firebolt-sdk
 pandas==1.3.4
-nzpy>=1.15
-nzalchemy
 python-arango==6.1.0
+pyarrow==8.0.0
